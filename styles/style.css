@@ -1,0 +1,39 @@
+:root {
+  --black: #181818;
+  --blue: #2b59c3;
+  --light-grey: #e5e5e5;
+  --dark-grey: #868686;
+  --white: #fff;
+}
+
+:root {
+  --font-family: "20 Kopeek", sans-serif;
+  --second-family: "20 Kopeek Book", sans-serif;
+}
+
+body {
+  background-color: var(--light-grey);
+}
+
+.container {
+  width: 1680px;
+  padding: 31px 285px;
+}
+
+/* -------HEADER------- */
+.header {
+}
+.container {
+}
+.logo_container {
+}
+.logo_text {
+}
+.contact_container {
+}
+.contact_list {
+}
+.contact_list_item {
+}
+.contact_list_item_link {
+}
