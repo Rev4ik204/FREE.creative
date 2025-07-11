@@ -5,6 +5,15 @@
   --dark-grey: #868686;
   --white: #fff;
 }
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20-kopeek.otf");
+}
+
+@font-face {
+  font-family: "20 Kopeek Book";
+  src: url("../fonts/20-kopeek-book.otf");
+}
 
 :root {
   --font-family: "20 Kopeek", sans-serif;
@@ -13,6 +22,7 @@
 
 body {
   background-color: var(--light-grey);
+  box-sizing: border-box;
 }
 
 .container {
@@ -21,19 +31,53 @@ body {
 }
 
 /* -------HEADER------- */
-.header {
-}
-.container {
+.header .container {
+  display: flex;
+  /* justify-content:space-between ; */
+  gap: 489px;
 }
 .logo_container {
+  display: flex;
+  gap: 22px;
+  align-items: center;
 }
+
 .logo_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white);
+  width: 193px;
 }
+
 .contact_container {
 }
+
 .contact_list {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  list-style: none;
 }
-.contact_list_item {
+
+.contact_list_item:first-child {
+  border: 1px solid var(--white);
+  border-radius: 15px;
+  width: 204px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .contact_list_item_link {
+}
+
+.contact_tell {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--white);
+  text-decoration: none;
 }
