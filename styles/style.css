@@ -35,13 +35,28 @@ body {
   display: flex;
   /* justify-content:space-between ; */
   gap: 489px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 .logo_container {
   display: flex;
   gap: 22px;
   align-items: center;
 }
-
+.logo_img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+    hue-rotate(332deg) brightness(104%) contrast(105%);
+  transition: all 0.5s ease-in-out;
+}
+.logo_img:hover,
+.logo_img:focus {
+  filter: brightness(0) saturate(100%) invert(79%) sepia(18%) saturate(2797%)
+    hue-rotate(101deg) brightness(101%) contrast(83%);
+  /* #32eca5 */
+  transition: all 0.5s ease-in-out;
+}
 .logo_text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -80,4 +95,93 @@ body {
   line-height: 140%;
   color: var(--white);
   text-decoration: none;
+}
+
+/* -------HEADER------- */
+
+.hero {
+  background-image: url("../images/img/bg_hero-min.png");
+  /* background-size:auto  100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* height: 100%; */
+  padding-top: 269px;
+}
+
+.hero_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: var(--black);
+  width: 560px;
+  margin-bottom: 30px;
+}
+
+.hero_text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 110%;
+  color: var(--black);
+  margin-bottom: 65px;
+}
+
+.hero_btn_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button {
+  box-sizing: border-box;
+  border: 2px solid var(--white);
+  border-radius: 40px;
+  padding: 23px 47px;
+  width: 186px;
+  height: 71px;
+  background-color: var(--white);
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.btn2 {
+  width: 232px;
+}
+
+.firm_style {
+  margin-top: 945px;
+}
+.firm_style .container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.firm_style_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: var(--black);
+}
+.firm_style_wraper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.firm_style_img {
+  width: 635px;
+  height: 381px;
+}
+.firm_style_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+  width: 445px;
 }
