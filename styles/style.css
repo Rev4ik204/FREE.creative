@@ -255,27 +255,42 @@ body {
   padding-bottom: 133px;
   display: flex;
   gap: 82px;
+  position: relative;
 }
 .price_wrap1 {
+  padding-top: 57px;
 }
 .price_text {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: var(--black);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+  width: 396px;
+}
+.price_text_white {
+  color: white;
+  position: absolute;
+  z-index:5 ;
 }
 .blue_rectangle {
+  border-radius: 5px;
+  width: 416px;
+  height: 93px;
+  background-color: #2b59c3;
+  position: absolute;
+  top: 495px;
+  left: 270px;
 }
 .price_wrap2 {
 }
 .price_title {
+  margin-bottom: 15px;
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 38px;
-line-height: 110%;
-color: var(--black);
- 
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: var(--black);
 }
 .price_img {
 }
