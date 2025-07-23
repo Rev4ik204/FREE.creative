@@ -167,6 +167,8 @@ body {
   width: 232px;
 }
 
+/* -------FIRM STYLE------- */
+
 .firm_style {
 }
 .firm_style .container {
@@ -198,6 +200,8 @@ body {
   color: var(--black);
   width: 445px;
 }
+
+/* -------BASE ELEMENTS------- */
 
 .base_elements {
 }
@@ -250,6 +254,8 @@ body {
   color: var(--black);
 }
 
+/* -------PRICE STYLE------- */
+
 .price_style .container {
   padding-top: 120px;
   padding-bottom: 133px;
@@ -294,3 +300,6 @@ body {
 }
 .price_img {
 }
+
+/* -------PROJECTS------- */
+
