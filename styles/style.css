@@ -159,8 +159,10 @@ body {
 
 .button:hover,
 .button:focus {
-  color: #fff;
-  background-color: #2b59c3;
+  border: 2px solid var(--blue);
+
+  color: var(--white) ;
+  background-color: var(--blue);
 }
 
 .btn2 {
@@ -342,6 +344,14 @@ body {
   line-height: 140%;
   color: var(--black);
 }
+.project_list_item_content_btn:hover,
+.project_list_item_content_btn:focus {
+  border: 2px solid var(--blue);
+
+  color: var(--white) ;
+  background-color: var(--blue);
+}
+
 .project_list_item_text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -366,8 +376,16 @@ body {
   color: var(--white);
   border: none;
 }
+.project_btn:hover,
+.project_btn:focus {
+  border: 2px solid var(--white);
 
-/* -------PROJECTS------- */
+  color: var(--blue) ;
+  background-color: var(--white);
+}
+
+
+/* -------PRIZE------- */
 
 .prize {
 }
@@ -419,56 +437,87 @@ body {
   padding: 0;
 }
 
-
 /* -------CONTACT FORM------- */
 
-
-
 .contact_form .container {
-
+  padding-bottom: 50px;
 }
 .contact_form_title {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 38px;
-line-height: 110%;
-color: var(--black);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: var(--black);
+  margin-bottom: 11px;
 }
 .contact_form_text {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 26px;
-line-height: 110%;
-color: var(--black);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: var(--black);
+  margin-bottom: 27px;
 }
 .form {
 }
 .form_input {
   border: 1px solid var(--black);
-border-radius: 10px;
-width: 350px;
-height: 71px;
+  border-radius: 10px;
+  width: 350px;
+  height: 71px;
+  margin-right: 30px;
+  margin-bottom: 21px;
 
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: var(--black);
-padding: 23px 29px;
-
-}
-.form_input::placeholder{
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: var(--dark-grey);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+  padding: 23px 29px;
+}
+.form_input::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--dark-grey);
 }
 .contact_form_btn {
+  border-radius: 40px;
+  padding: 23px 47px;
+
+  height: 71px;
+  background: var(--blue);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--white);
+  cursor: pointer;
 }
+.contact_form_btn:hover,
+.contact_form_btn:focus {
+  border: 2px solid var(--white);
+
+  color: var(--blue) ;
+  background-color: var(--white);
+}
+
 .checkbox_container {
+  display: flex;
+  gap:11px;align-items: center;
 }
 .checkbox {
+  width: 18px;
+  height: 18px;
 }
 .checkbox_label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+}
+.checkbox_label_accent {
+  color: var(--blue);
 }
