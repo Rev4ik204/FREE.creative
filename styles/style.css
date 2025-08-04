@@ -161,7 +161,7 @@ body {
 .button:focus {
   border: 2px solid var(--blue);
 
-  color: var(--white) ;
+  color: var(--white);
   background-color: var(--blue);
 }
 
@@ -348,7 +348,7 @@ body {
 .project_list_item_content_btn:focus {
   border: 2px solid var(--blue);
 
-  color: var(--white) ;
+  color: var(--white);
   background-color: var(--blue);
 }
 
@@ -380,10 +380,9 @@ body {
 .project_btn:focus {
   border: 2px solid var(--white);
 
-  color: var(--blue) ;
+  color: var(--blue);
   background-color: var(--white);
 }
-
 
 /* -------PRIZE------- */
 
@@ -499,13 +498,14 @@ body {
 .contact_form_btn:focus {
   border: 2px solid var(--white);
 
-  color: var(--blue) ;
+  color: var(--blue);
   background-color: var(--white);
 }
 
 .checkbox_container {
   display: flex;
-  gap:11px;align-items: center;
+  gap: 11px;
+  align-items: center;
 }
 .checkbox {
   width: 18px;
@@ -520,4 +520,66 @@ body {
 }
 .checkbox_label_accent {
   color: var(--blue);
+}
+
+/* -------STAGE------- */
+
+.stage .container {
+}
+.stage_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: var(--black);
+  margin-bottom: 83px;
+}
+.stage_list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  list-style: none;
+}
+.stage_list_item {
+  display: flex;
+  /* gap: 97px; */
+  justify-content: space-between;
+}
+.stage_list_item_wraper {
+  width: 283px;
+}
+
+.stage_list_item_img {
+  margin-bottom: 23px;
+}
+.stage_list_item_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: var(--black);
+}
+.stage_list_item_list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.stage_list_item_list_item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 180px;
+}
+.stage_list_item_list_item_title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--black);
+}
+.stage_list_item_list_item_disc {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--black);
 }
