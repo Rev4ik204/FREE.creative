@@ -584,4 +584,42 @@ body {
   color: var(--black);
 }
 
-/* comparison */
+/* -------COMPARISON------- */
+
+.comparison .container {
+  padding-bottom: 150px;
+  display: flex;
+  gap: 30px;
+}
+.comparison_blue_rectangle {
+}
+.category {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  /* color: var(--white); */
+}
+.comparison_content {
+}
+.comparison_list {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+.comparison_list_item {
+  padding: 15px 10px 25px 19px;
+}
+.company {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: var(--dark-grey);
+}
+.category_discription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--black);
+}
