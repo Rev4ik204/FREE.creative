@@ -568,7 +568,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 180px;
+  width: 200px;
 }
 .stage_list_item_list_item_title {
   font-family: var(--font-family);
@@ -583,3 +583,5 @@ body {
   font-size: 15px;
   color: var(--black);
 }
+
+/* comparison */
