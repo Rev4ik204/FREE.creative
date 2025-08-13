@@ -729,3 +729,61 @@ body {
     top: 620px;
   }
 }
+
+/* -------WARRANTY------- */
+
+.warranty {
+  background-image: url("../images/img/Rectangle\ 32-min.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.warranty .container {
+  padding-top: 282px;
+  padding-bottom: 80px;
+}
+.warranty_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+.warranty_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.warranty_list_item {
+  width: 190px;
+  display: flex;
+  gap: 8px;
+}
+.warranty_list_item:last-child {
+  /* width: 300px; */
+}
+.warranty_list_item_number {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: var(--white);
+}
+.warranty_list_item_info {
+  margin-top: 25px;
+}
+.warranty_list_item_info_title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--white);
+  width: 122px;
+  margin-bottom: 16px;
+}
+.warranty_list_item_info_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white);
+}
