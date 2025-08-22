@@ -31,8 +31,10 @@ body {
 }
 
 .container {
-  width: 1680px;
-  padding: 31px 285px;
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* padding: 31px 285px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,9 +45,9 @@ body {
   /* justify-content:space-between ; */
   gap: 489px;
   position: absolute;
-  top: 0;
-  /* left: calc(50%-840px); */
-  left: 120px;
+  top: 31px;
+  left: calc(50% - 555px);
+  /* left: 120px; */
   z-index: 5;
 }
 .logo_container {
@@ -111,10 +113,11 @@ body {
   background-image: url("../images/img/bg_hero-min.png");
   background-repeat: no-repeat;
   background-size: 1680px 945px;
+  background-position: center;
   height: 945px;
   padding-top: 344px;
   /* margin-left: calc(50%-840px); */
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 
 .hero_title {
@@ -911,6 +914,10 @@ body {
 }
 
 /* ------FOOTER---- */
+.footer .container{
+  padding-bottom: 20px;
+  margin-top: 38px;
+}
 
 .footer .text {
   font-family: var(--font-family);
