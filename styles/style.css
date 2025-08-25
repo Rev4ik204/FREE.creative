@@ -180,6 +180,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding-top: 70px;
+  padding-bottom: 138px;
 }
 .firm_style_title {
   font-family: var(--second-family);
@@ -291,7 +293,7 @@ body {
   background-color: #2b59c3;
   position: absolute;
   top: 495px;
-  left: 270px;
+  left: 0;
 }
 .price_wrap2 {
 }
@@ -309,6 +311,7 @@ body {
 /* -------PROJECTS------- */
 
 .projects .container {
+  padding-bottom: 100px;
 }
 .project_list {
   list-style: none;
@@ -389,9 +392,8 @@ body {
 
 /* -------PRIZE------- */
 
-.prize {
-}
-.container {
+.prize .container {
+  padding-bottom: 100px;
 }
 .prize_title {
   margin-bottom: 15px;
@@ -528,9 +530,9 @@ body {
 
 /* -------STAGE------- */
 
-.stage .container {
+.stage .container {padding-bottom: 150px;
 }
-.stage_title {
+.stage_title {width: 450px;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 55px;
@@ -914,7 +916,7 @@ body {
 }
 
 /* ------FOOTER---- */
-.footer .container{
+.footer .container {
   padding-bottom: 20px;
   margin-top: 38px;
 }
