@@ -39,6 +39,12 @@ body {
   margin-right: auto;
 }
 
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
 /* -------HEADER------- */
 .header .container {
   display: flex;
@@ -530,9 +536,11 @@ body {
 
 /* -------STAGE------- */
 
-.stage .container {padding-bottom: 150px;
+.stage .container {
+  padding-bottom: 150px;
 }
-.stage_title {width: 450px;
+.stage_title {
+  width: 450px;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 55px;
