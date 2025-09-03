@@ -188,16 +188,19 @@
 
             <p class="price_text price_text_white">
               Каждый клиент нашего агентства получает приятный бонус на финише
-              проекта, о котором <br> мы расскажем ниже ▼
+              проекта, о котором <br />
+              мы расскажем ниже ▼
             </p>
           </div>
           <div class="price_wrap2">
             <h2 class="price_title">Сколько стоит фирменный стиль?</h2>
-            <img
-              class="price_img"
-              src="./images/img/firm_style_price-min.png"
-              alt="style_price_img"
-            />
+            <picture class="price_img" alt="style_price_img">
+              <source
+                srcset="./images/img/firm_style_price_992-min.png"
+                media="(max-width: 1200px)"
+              />
+              <img src="./images/img/firm_style_price-min.png" />
+            </picture>
           </div>
         </div>
       </section>
@@ -288,7 +291,14 @@
         <div class="container">
           <h2 class="prize_title">Гайдлайны в подарок</h2>
           <div class="prize_wraper">
-            <img class="prize_img" src="./images/img/gideline.png" alt="" />
+               <picture class="prize_img" alt="prize_img">
+                <source
+                  srcset="./images/img/gideline_992-min.png"
+                  media="(max-width: 1200px)"
+                />
+                <img src="./images/img/gideline-min.png" />
+              </picture>
+            
             <div class="prize_text_content">
               <div class="prize_rectangle_blue">
                 <h3 class="prize_text_title">
