@@ -614,8 +614,12 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .prize_wraper {
-    gap: 18px;
+  .prize_rectangle_blue {
+   
+width: 382px;
+height: 183px;
+  padding: 14px 5px 13px 12px;
+
   }
 }
 
