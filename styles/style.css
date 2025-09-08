@@ -924,7 +924,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
-  color: var(--black);width: 200px;
+  color: var(--black);
+  width: 200px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -942,7 +943,7 @@ body {
 
 @media screen and (max-width: 1200px) {
   .stage_list_item_list_item_disc {
-     font-size: 14px;
+    font-size: 14px;
   }
 }
 
@@ -953,6 +954,13 @@ body {
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .comparison {
+    font-size: 14px;
+  }
+}
+
 .comparison_blue_rectangle {
   border-radius: 10px;
   width: 160px;
@@ -975,6 +983,13 @@ body {
     margin-bottom: 131px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .comparison {
+    font-size: 14px;
+  }
+}
+
 .category {
   font-family: var(--second-family);
   font-weight: 400;
@@ -982,6 +997,13 @@ body {
   line-height: 110%;
   color: var(--white);
 }
+
+@media screen and (max-width: 1200px) {
+  .category {
+    font-size: 20px;
+  }
+}
+
 .comparison_content {
   position: relative;
 }
@@ -990,9 +1012,23 @@ body {
   display: flex;
   gap: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+  .comparison {
+    font-size: 14px;
+  }
+}
+
 .comparison_list_item {
   width: 289px;
   padding: 15px 10px 25px 19px;
+}
+
+@media screen and (max-width: 1200px) {
+  .comparison_list_item:last-child .company {
+   width: 200px;
+    
+  }
 }
 
 .company {
@@ -1003,6 +1039,13 @@ body {
   color: var(--dark-grey);
   margin-bottom: 54px;
 }
+
+@media screen and (max-width: 1200px) {
+  .company {
+    font-size: 34px;
+  }
+}
+
 .comparison_list_item_list {
   list-style: none;
 }
@@ -1011,6 +1054,12 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: var(--black);
+}
+
+@media screen and (max-width: 1200px) {
+  .category_discription {
+    font-size: 14px;
+  }
 }
 
 .comparison_list_item:first-child {
