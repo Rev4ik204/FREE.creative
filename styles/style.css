@@ -956,8 +956,8 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .comparison {
-    font-size: 14px;
+  .comparison .container{
+   padding-bottom: 100px;
   }
 }
 
@@ -985,9 +985,24 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .comparison {
-    font-size: 14px;
+  .comparison_blue_rectangle {
+ 
+  width: 146px;
+  height: 898px;
+  .category:first-child {
+    margin-top: 125px;
+    margin-bottom: 170px;
   }
+  .category:nth-child(2) {
+    margin-bottom: 70px;
+  }
+  .category:nth-child(3) {
+    margin-bottom: 130px;
+  }
+  .category:nth-child(4) {
+    margin-bottom: 175px;
+  }
+}
 }
 
 .category {
@@ -1226,15 +1241,32 @@ body {
 
 /* -------WARRANTY------- */
 
+
 .warranty {
   background-image: url("../images/img/Rectangle\ 32-min.png");
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 1200px) {
+.warranty {
+  background-image: url("../images/img/Rectangle_992-min.png");
+}
+}
+
 .warranty .container {
   padding-top: 282px;
   padding-bottom: 80px;
 }
+
+@media screen and (max-width: 1200px) {
+  .warranty .container {
+  padding-top: 97px;
+  padding-bottom: 60px;
+}
+
+}
+
 .warranty_title {
   font-family: var(--second-family);
   font-weight: 400;
@@ -1243,6 +1275,13 @@ body {
   color: var(--white);
   margin-bottom: 40px;
 }
+@media screen and (max-width: 1200px) {
+.warranty_title{
+  font-size: 45px;
+
+}
+}
+
 .warranty_list {
   list-style: none;
   display: flex;
@@ -1253,6 +1292,13 @@ body {
   display: flex;
   gap: 8px;
 }
+
+@media screen and (max-width: 1200px) {
+.warranty_list_item{
+  width: 181px;
+}
+}
+
 .warranty_list_item:last-child {
   /* width: 300px; */
 }
@@ -1263,6 +1309,13 @@ body {
   line-height: 100%;
   color: var(--white);
 }
+@media screen and (max-width: 1200px) {
+.warranty_list_item_number{
+  font-size: 45px;
+
+}
+}
+
 .warranty_list_item_info {
   margin-top: 25px;
 }
@@ -1275,12 +1328,28 @@ body {
   width: 122px;
   margin-bottom: 16px;
 }
+
+@media screen and (max-width: 1200px) {
+.warranty_list_item_info_title{
+  font-size: 16px;
+
+}
+}
+
 .warranty_list_item_info_text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 15px;
   color: var(--white);
 }
+
+@media screen and (max-width: 1200px) {
+.warranty_list_item_info_text{
+  font-size: 14px;
+
+}
+}
+
 /* ---FORM--- */
 .contact_form_bottom .container {
   display: flex;
