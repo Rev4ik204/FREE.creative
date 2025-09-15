@@ -956,8 +956,8 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .comparison .container{
-   padding-bottom: 100px;
+  .comparison .container {
+    padding-bottom: 100px;
   }
 }
 
@@ -986,23 +986,22 @@ body {
 
 @media screen and (max-width: 1200px) {
   .comparison_blue_rectangle {
- 
-  width: 146px;
-  height: 898px;
-  .category:first-child {
-    margin-top: 125px;
-    margin-bottom: 170px;
+    width: 146px;
+    height: 898px;
+    .category:first-child {
+      margin-top: 125px;
+      margin-bottom: 170px;
+    }
+    .category:nth-child(2) {
+      margin-bottom: 70px;
+    }
+    .category:nth-child(3) {
+      margin-bottom: 130px;
+    }
+    .category:nth-child(4) {
+      margin-bottom: 175px;
+    }
   }
-  .category:nth-child(2) {
-    margin-bottom: 70px;
-  }
-  .category:nth-child(3) {
-    margin-bottom: 130px;
-  }
-  .category:nth-child(4) {
-    margin-bottom: 175px;
-  }
-}
 }
 
 .category {
@@ -1218,29 +1217,22 @@ body {
 }
 @media screen and (max-width: 1200px) {
   .gray_lines {
- 
-  
-  .gray_line:first-child {
-    top: 277px;
-  }
-  .gray_line:nth-child(2) {
-    top: 386px;
-  }
-  .gray_line:nth-child(3) {
-    top: 550px;
-  }
-  .gray_line:nth-child(4) {
-    top: 760px;
+    .gray_line:first-child {
+      top: 277px;
+    }
+    .gray_line:nth-child(2) {
+      top: 386px;
+    }
+    .gray_line:nth-child(3) {
+      top: 550px;
+    }
+    .gray_line:nth-child(4) {
+      top: 760px;
+    }
   }
 }
-
-
-}
-
-
 
 /* -------WARRANTY------- */
-
 
 .warranty {
   background-image: url("../images/img/Rectangle\ 32-min.png");
@@ -1249,9 +1241,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-.warranty {
-  background-image: url("../images/img/Rectangle_992-min.png");
-}
+  .warranty {
+    background-image: url("../images/img/Rectangle_992-min.png");
+  }
 }
 
 .warranty .container {
@@ -1261,10 +1253,9 @@ body {
 
 @media screen and (max-width: 1200px) {
   .warranty .container {
-  padding-top: 97px;
-  padding-bottom: 60px;
-}
-
+    padding-top: 97px;
+    padding-bottom: 60px;
+  }
 }
 
 .warranty_title {
@@ -1276,10 +1267,9 @@ body {
   margin-bottom: 40px;
 }
 @media screen and (max-width: 1200px) {
-.warranty_title{
-  font-size: 45px;
-
-}
+  .warranty_title {
+    font-size: 45px;
+  }
 }
 
 .warranty_list {
@@ -1294,9 +1284,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-.warranty_list_item{
-  width: 181px;
-}
+  .warranty_list_item {
+    width: 181px;
+  }
 }
 
 .warranty_list_item:last-child {
@@ -1310,10 +1300,9 @@ body {
   color: var(--white);
 }
 @media screen and (max-width: 1200px) {
-.warranty_list_item_number{
-  font-size: 45px;
-
-}
+  .warranty_list_item_number {
+    font-size: 45px;
+  }
 }
 
 .warranty_list_item_info {
@@ -1330,10 +1319,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-.warranty_list_item_info_title{
-  font-size: 16px;
-
-}
+  .warranty_list_item_info_title {
+    font-size: 16px;
+  }
 }
 
 .warranty_list_item_info_text {
@@ -1344,10 +1332,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-.warranty_list_item_info_text{
-  font-size: 14px;
-
-}
+  .warranty_list_item_info_text {
+    font-size: 14px;
+  }
 }
 
 /* ---FORM--- */
@@ -1357,21 +1344,46 @@ body {
   padding-top: 150px;
   margin-bottom: 127px;
 }
+
+@media screen and (max-width: 1200px) {
+  .contact_form_bottom .container {
+    padding-top: 100px;
+    margin-bottom: 120px;
+    gap: 63px;
+  }
+}
+
 .contact_form_bottom .contact_form_title {
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
 .contact_form_bottom .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: baseline;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
 .contact_form_bottom .form_input {
   width: 445px;
   height: 71px;
   margin-right: 0;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .contact_form_bottom .form_input {
+    width: 370px;
+    height: 60px;
+  }
+}
+
 .contact_form_bottom .form_input::placeholder {
 }
 .contact_form_bottom .contact_form_btn {
@@ -1381,6 +1393,21 @@ body {
   height: 71px;
   width: 230px;
 }
+
+@media screen and (max-width: 1200px) {
+  .contact_form_bottom .contact_form_btn {
+    font-size: 16px;
+
+    /* height: 60px; */
+    width: 213px;
+  }
+
+  .contact_form_bottom .contact_form_btn:hover,
+  .contact_form_bottom .contact_form_btn:focus {
+    width: 217px;
+  }
+}
+
 .contact_form_bottom .contact_form_btn:hover,
 .contact_form_bottom .contact_form_btn:focus {
   border: 2px solid var(--white);
@@ -1392,11 +1419,18 @@ body {
 
 .contact_form_bottom .checkbox_container {
   margin-top: 11px;
-  margin-bottom: 38px;
+  margin-bottom: 48px;
   display: flex;
   gap: 11px;
   align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .contact_form_bottom .checkbox_container {
+    margin-bottom: 30px;
+  }
+}
+
 .contact_form_bottom .checkbox {
   width: 18px;
   height: 18px;
@@ -1408,6 +1442,13 @@ body {
   line-height: 140%;
   color: var(--black);
 }
+
+@media screen and (max-width: 1200px) {
+  .contact_form_bottom .checkbox_label {
+    font-size: 16px;
+  }
+}
+
 .contact_form_bottom .checkbox_label_accent {
   color: var(--blue);
 }
@@ -1422,6 +1463,10 @@ body {
   gap: 15px;
   align-items: baseline;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
 .contact_form_bottom .contact_text {
   font-family: var(--second-family);
   font-weight: 400;
@@ -1429,6 +1474,13 @@ body {
   line-height: 110%;
   color: var(--black);
 }
+
+@media screen and (max-width: 1200px) {
+  .contact_form_bottom .contact_text {
+    font-size: 20px;
+  }
+}
+
 /* ------MEDIA---- */
 
 .media .container {
