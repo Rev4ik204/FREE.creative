@@ -508,9 +508,17 @@ body {
 @media screen and (max-width: 1200px) {
   .price_text {
     font-size: 16px;
-    width: 370px;
+    width: 368px;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .price_text {
+   
+    width: 539px;
+  }
+}
+
 .price_text_white {
   color: white;
   position: absolute;
@@ -538,11 +546,19 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .blue_rectangle {
+    width: 585px;
+    height: 67px;
+    top: 840px;
+  }
+}
+
 .price_wrap2 {
 }
 
 @media screen and (max-width: 992px) {
-  .price_wrap2{
+  .price_wrap2 {
     width: 100%;
   }
 }
@@ -564,12 +580,10 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .price_img{
+  .price_img {
     width: 100%;
   }
 }
-
-
 
 /* -------PROJECTS------- */
 
@@ -611,6 +625,13 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .project_list_item_img {
+    margin-bottom: 25px;
+  }
+}
+
+
 .project_list_item_content {
   display: flex;
   gap: 90px;
@@ -622,6 +643,13 @@ body {
     gap: 100px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .project_list_item_content {
+    gap: 70px;
+  }
+}
+
 
 .project_list_item_content_title {
   font-family: var(--second-family);
