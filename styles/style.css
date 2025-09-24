@@ -514,7 +514,6 @@ body {
 
 @media screen and (max-width: 992px) {
   .price_text {
-   
     width: 539px;
   }
 }
@@ -631,7 +630,6 @@ body {
   }
 }
 
-
 .project_list_item_content {
   display: flex;
   gap: 90px;
@@ -649,7 +647,6 @@ body {
     gap: 70px;
   }
 }
-
 
 .project_list_item_content_title {
   font-family: var(--second-family);
@@ -670,12 +667,20 @@ body {
   border: 1px solid var(--black);
   border-radius: 40px;
   padding: 23px 47px;
-  height: 71px;
+  box-sizing: border-box;
+  /* height: 71px; */
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: var(--black);
+}
+
+@media screen and (max-width: 1200px) {
+  .project_list_item_content_btn {
+    font-size: 16px;
+    width: 231px;
+  }
 }
 
 .project_list_item_content_btn:hover,
@@ -698,6 +703,7 @@ body {
 @media screen and (max-width: 1200px) {
   .project_list_item_text {
     font-size: 16px;
+    width: 210px;
   }
 }
 
@@ -723,6 +729,14 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .project_btn {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .project_btn:hover,
 .project_btn:focus {
   border: 2px solid var(--white);
@@ -736,6 +750,13 @@ body {
 .prize .container {
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 992px) {
+  .prize .container {
+    padding-bottom: 120px;
+  }
+}
+
 .prize_title {
   margin-bottom: 15px;
   font-family: var(--second-family);
@@ -752,6 +773,12 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .prize_title {
+    margin-bottom: 15px;
+  }
+}
+
 .prize_wraper {
   display: flex;
   gap: 16px;
@@ -761,6 +788,14 @@ body {
 @media screen and (max-width: 1200px) {
   .prize_wraper {
     gap: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .prize_wraper {
+    gap: 15px;
+    flex-direction: column;
+    align-items: baseline;
   }
 }
 
@@ -781,6 +816,15 @@ body {
     width: 382px;
     height: 183px;
     padding: 14px 5px 13px 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .prize_rectangle_blue {
+    width: 495px;
+    height: auto;
+    margin-left: -15px;
+    padding: 11px 20px 13px 15px;
   }
 }
 
@@ -818,9 +862,19 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .prize_text {
+    margin-left: -15px;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 6px;
+    width: 470px;
+  }
+}
+
 .prize_text_white {
   color: var(--white);
-  padding: 0;
+  padding-left: 0px;
 }
 
 /* -------CONTACT FORM------- */
