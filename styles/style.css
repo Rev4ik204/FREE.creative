@@ -753,7 +753,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .prize .container {
-    padding-bottom: 120px;
+    padding-bottom: 69px;
   }
 }
 
@@ -889,6 +889,12 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .contact_form .container {
+    padding-bottom: 80px;
+  }
+}
+
 .contact_form_title {
   font-family: var(--second-family);
   font-weight: 400;
@@ -905,6 +911,13 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .contact_form_title {
+    width: 550px;
+    margin-bottom: 15px;
+  }
+}
+
 .contact_form_text {
   font-family: var(--second-family);
   font-weight: 400;
@@ -918,6 +931,12 @@ body {
   .contact_form_text {
     font-size: 20px;
     margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact_form_text {
+    margin-bottom: 30px;
   }
 }
 
@@ -950,6 +969,14 @@ body {
 
     width: 450px;
     height: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form_input_wraper {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 22px;
   }
 }
 
