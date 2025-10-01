@@ -1558,10 +1558,9 @@ body {
   .warranty_list {
     flex-wrap: wrap;
 
-      justify-content: none;
+    justify-content: none;
     gap: 59px;
-    row-gap:23px ;
-
+    row-gap: 23px;
   }
 }
 
@@ -1586,7 +1585,6 @@ body {
 @media screen and (max-width: 992px) {
   .warranty_list_item:last-child {
     width: 334px;
-  
   }
 }
 
@@ -1654,6 +1652,15 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .contact_form_bottom .container {
+    padding-top: 119px;
+
+    gap: 61px;
+    flex-direction: column;
+  }
+}
+
 .contact_form_bottom .contact_form_title {
   margin-bottom: 30px;
 }
@@ -1684,6 +1691,14 @@ body {
     height: 60px;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .contact_form_bottom .form_input {
+    width: 450px;
+
+  }
+}
+
 
 .contact_form_bottom .form_input::placeholder {
 }
@@ -1765,7 +1780,12 @@ body {
   align-items: baseline;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
+
+  .contact_form_bottom .contact_text_container{
+    gap: 10px;
+  }
+  
 }
 
 .contact_form_bottom .contact_text {
