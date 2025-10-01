@@ -1100,7 +1100,8 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .stage_list {gap: 50px;
+  .stage_list {
+    gap: 50px;
   }
 }
 
@@ -1112,7 +1113,8 @@ body {
 
 @media screen and (max-width: 992px) {
   .stage_list_item {
-    flex-direction: column; gap: 18px;
+    flex-direction: column;
+    gap: 18px;
   }
 }
 
@@ -1156,7 +1158,8 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .stage_list_item_list {gap: 38px;
+  .stage_list_item_list {
+    gap: 38px;
   }
 }
 
@@ -1168,7 +1171,8 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .stage_list_item_list_item {gap: 18px;
+  .stage_list_item_list_item {
+    gap: 18px;
   }
 }
 
@@ -1488,14 +1492,20 @@ body {
 /* -------WARRANTY------- */
 
 .warranty {
-  background-image: url("../images/img/Rectangle\ 32-min.png");
+  background-image: url("../images/img/rectangle-min.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 @media screen and (max-width: 1200px) {
   .warranty {
-    background-image: url("../images/img/Rectangle_992-min.png");
+    background-image: url("../images/img/rectangle_992-min.png");
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .warranty {
+    background-image: url("../images/img/rectangle_768-min.png");
   }
 }
 
@@ -1508,6 +1518,13 @@ body {
   .warranty .container {
     padding-top: 97px;
     padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .warranty .container {
+    padding-top: 32px;
+    padding-bottom: 21px;
   }
 }
 
@@ -1525,11 +1542,29 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .warranty_title {
+    width: 619px;
+  }
+}
+
 .warranty_list {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 992px) {
+  .warranty_list {
+    flex-wrap: wrap;
+
+      justify-content: none;
+    gap: 59px;
+    row-gap:23px ;
+
+  }
+}
+
 .warranty_list_item {
   width: 190px;
   display: flex;
@@ -1539,6 +1574,19 @@ body {
 @media screen and (max-width: 1200px) {
   .warranty_list_item {
     width: 181px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .warranty_list_item {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .warranty_list_item:last-child {
+    width: 334px;
+  
   }
 }
 
