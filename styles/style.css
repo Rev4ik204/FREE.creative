@@ -69,6 +69,13 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .header {
+    top: 27px;
+    left: calc(50% - 355px);
+  }
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -128,6 +135,29 @@ body {
   line-height: 140%;
   color: var(--white);
   text-decoration: none;
+}
+
+.burger_menu {
+  display: none;
+}
+
+.burger_contact_container {
+  display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+  .burger_menu {
+    display: block;
+  }
+  .contact_container {
+    display: none;
+  }
+  .burger_icon:hover {
+    .burger_contact_container {
+      display: block;
+    }
+  }
 }
 
 /* -------HERO------- */
