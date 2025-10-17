@@ -1322,7 +1322,7 @@ body {
   z-index: -1;
   border-radius: 10px;
   width: 160px;
-  height: 870px;
+  height: 880px;
   background: var(--blue);
   margin-top: 15px;
 }
@@ -1330,10 +1330,10 @@ body {
 @media screen and (max-width: 1200px) {
   .comparison_blue_rectangle {
     width: 146px;
-    height: 970px;
+    height: 980px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .comparison_blue_rectangle {
     display: none;
   }
