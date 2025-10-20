@@ -513,7 +513,7 @@ body {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .base_elements_list {
     flex-direction: column;
     gap: 20px;
@@ -525,6 +525,13 @@ body {
   display: flex;
   gap: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .base_elements_list_item {
+    gap: 68px;
+  }
+}
+
 .base_elements_list_item:last-child {
   width: 300px;
 }
@@ -533,6 +540,13 @@ body {
   .base_elements_list_item:last-child {
     /* width: 350px; */
     margin-right: 140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .base_elements_list_item:last-child {
+    width: 407px;
+    padding: 0;margin-right: 0;
   }
 }
 
@@ -558,6 +572,12 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .base_elements_list_item_info {
+    margin-top: 14px;
+  }
+}
+
 .base_elements_list_item_info_title {
   font-family: var(--font-family);
   font-weight: 400;
@@ -575,12 +595,18 @@ body {
   }
 }
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .base_elements_list_item_info_title {
-    
+    font-size: 15px;width: 163px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ .base_elements_list_item:last-child .base_elements_list_item_info_title {
     width: 140px;
   }
-} */
+}
+
 
 .base_elements_list_item_info_text {
   font-family: var(--font-family);
@@ -591,6 +617,12 @@ body {
 @media screen and (max-width: 1200px) {
   .base_elements_list_item_info_text {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .base_elements_list_item_info_text {
+    font-size: 12px;
   }
 }
 
