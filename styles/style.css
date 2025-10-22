@@ -794,13 +794,11 @@ body {
   }
 }
 
-
 @media screen and (max-width: 786px) {
   .project .container {
     padding-bottom: 89px;
   }
 }
-
 
 .project_list {
   list-style: none;
@@ -856,12 +854,11 @@ body {
 
 @media screen and (max-width: 768px) {
   .project_list_item_content {
-    gap:auto;
+    gap: auto;
 
     justify-content: space-between;
   }
 }
-
 
 .project_list_item_content_title {
   font-family: var(--second-family);
@@ -879,10 +876,10 @@ body {
 
 @media screen and (max-width: 1200px) {
   .project_list_item_content_title {
-    font-size: 35px;padding-bottom: 15px;
+    font-size: 35px;
+    padding-bottom: 15px;
   }
 }
-
 
 .project_list_item_content_btn {
   cursor: pointer;
@@ -906,10 +903,11 @@ body {
 
 @media screen and (max-width: 1200px) {
   .project_list_item_content_btn {
-    width: 231px;padding: 0;height: 50px;
+    width: 231px;
+    padding: 0;
+    height: 50px;
   }
 }
-
 
 .project_list_item_content_btn:hover,
 .project_list_item_content_btn:focus {
@@ -942,7 +940,6 @@ body {
   }
 }
 
-
 .project_btn {
   cursor: pointer;
   margin-top: 53px;
@@ -974,7 +971,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .project_btn { 
+  .project_btn {
     display: block;
     /* text-align: center; */
     margin-left: auto;
@@ -986,7 +983,6 @@ body {
     font-size: 20px;
   }
 }
-
 
 .project_btn:hover,
 .project_btn:focus {
@@ -1008,6 +1004,13 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .prize .container {
+    padding-bottom: 100px;
+  }
+}
+
+
 .prize_title {
   margin-bottom: 15px;
   font-family: var(--second-family);
@@ -1027,6 +1030,12 @@ body {
 @media screen and (max-width: 992px) {
   .prize_title {
     margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prize_title {
+    font-size: 32px;
   }
 }
 
@@ -1079,6 +1088,15 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .prize_rectangle_blue {
+    width: 437px;
+    height: auto;
+    margin-left: -15px;
+    padding: 11px 20px 13px 15px;
+  }
+}
+
 .prize_text_title {
   font-family: var(--second-family);
   font-weight: 400;
@@ -1092,6 +1110,13 @@ body {
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .prize_text_title {
+    font-size: 15px;
+  }
+}
+
 
 .prize_text {
   font-family: var(--font-family);
@@ -1122,6 +1147,14 @@ body {
     width: 470px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .prize_text {
+    font-size: 15px;width: 400px;
+  
+  }
+}
+
 
 .prize_text_white {
   color: var(--white);
