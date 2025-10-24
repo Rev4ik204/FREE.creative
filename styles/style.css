@@ -1515,13 +1515,11 @@ body {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .stage_list_item_list {
     gap: 30px;
   }
 }
-
 
 .stage_list_item_list_item {
   display: flex;
@@ -1542,7 +1540,6 @@ body {
     width: 150px;
   }
 }
-
 
 .stage_list_item_list_item_title {
   font-family: var(--font-family);
@@ -1588,6 +1585,13 @@ body {
 
 .comparison {
 }
+
+@media screen and (max-width: 768px) {
+  .comparison {
+    display: none;
+  }
+}
+
 .comparison .container {
   padding-bottom: 150px;
   position: relative;
@@ -1857,6 +1861,12 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .warranty {
+    display: none;
+  }
+}
+
 .warranty .container {
   padding-top: 282px;
   padding-bottom: 80px;
@@ -2003,9 +2013,14 @@ body {
 @media screen and (max-width: 992px) {
   .contact_form_bottom .container {
     padding-top: 119px;
-
     gap: 61px;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact_form_bottom .container {
+    padding-top: 0;
+    gap: 60px;
   }
 }
 
@@ -2070,6 +2085,16 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contact_form_bottom .contact_form_btn {
+    font-size: 15px;
+    padding: 0;
+
+    height: 50px;
+    width: 213px;
+  }
+}
+
 .contact_form_bottom .contact_form_btn:hover,
 .contact_form_bottom .contact_form_btn:focus {
   border: 2px solid var(--white);
@@ -2092,6 +2117,13 @@ body {
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contact_form_bottom .checkbox_container {
+    margin-bottom: 20px;margin-top: 2px;
+  }
+}
+
 
 .contact_form_bottom .checkbox {
   width: 18px;
