@@ -1375,9 +1375,8 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .checkbox_container{
-
-  gap: 13px;
+  .checkbox_container {
+    gap: 13px;
   }
 }
 
@@ -1394,7 +1393,8 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .checkbox_label {font-size: 15px;
+  .checkbox_label {
+    font-size: 15px;
   }
 }
 
@@ -1434,6 +1434,13 @@ body {
 @media screen and (max-width: 992px) {
   .stage_title {
     margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stage_title {
+    font-size: 35px;
+    width: 300px;
   }
 }
 
@@ -1508,6 +1515,14 @@ body {
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  .stage_list_item_list {
+    gap: 30px;
+  }
+}
+
+
 .stage_list_item_list_item {
   display: flex;
   flex-direction: column;
@@ -1520,6 +1535,14 @@ body {
     gap: 18px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .stage_list_item_list_item {
+    gap: 20px;
+    width: 150px;
+  }
+}
+
 
 .stage_list_item_list_item_title {
   font-family: var(--font-family);
@@ -1536,6 +1559,12 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .stage_list_item_list_item_title {
+    font-size: 15px;
+  }
+}
+
 .stage_list_item_list_item_disc {
   font-family: var(--font-family);
   font-weight: 400;
@@ -1546,6 +1575,12 @@ body {
 @media screen and (max-width: 1200px) {
   .stage_list_item_list_item_disc {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stage_list_item_list_item_disc {
+    font-size: 12px;
   }
 }
 
