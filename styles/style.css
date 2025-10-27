@@ -2120,10 +2120,10 @@ body {
 
 @media screen and (max-width: 768px) {
   .contact_form_bottom .checkbox_container {
-    margin-bottom: 20px;margin-top: 2px;
+    margin-bottom: 20px;
+    margin-top: 2px;
   }
 }
-
 
 .contact_form_bottom .checkbox {
   width: 18px;
@@ -2212,6 +2212,13 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .media_list {
+    column-gap: 60px;
+    row-gap: 30px;
+  }
+}
+
 .media_list_item {
   border-radius: 10px;
   padding: 6px 6px 16px 6px;
@@ -2237,6 +2244,37 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .media_list_item {
+    width: 255px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 6px 12px 12px 12px;
+    height: 105px;
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .media_list_item:nth-child(3) .media_list_item:nth-child(4) {
+    /* .media_list_item { */
+      height: 131px;
+    /* } */
+  }
+}@media screen and (max-width: 768px) {
+  .media_list_item:last-child {
+    /* .media_list_item { */
+      height: 131px;
+    /* } */
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
 .media_list_item_text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -2248,6 +2286,24 @@ body {
 @media screen and (max-width: 1200px) {
   .media_list_item_text {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .media_list_item_text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .small_text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .small_text {
+    font-size: 12px;
   }
 }
 
@@ -2276,11 +2332,18 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .footer .container {
     margin-top: 28px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer .container {
+    margin-top: 45px;
+  }
+}
+
 
 .footer .text {
   font-family: var(--font-family);
@@ -2293,5 +2356,12 @@ body {
 @media screen and (max-width: 1200px) {
   .footer .text {
     font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer .text {
+    font-size: 15px;
   }
 }
