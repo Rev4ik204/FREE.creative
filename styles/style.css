@@ -1827,7 +1827,7 @@ body {
     display: none;
   }
   .row_992 {
-    display:contents;
+    display: contents;
     padding: 0;
   }
 }
@@ -1842,17 +1842,17 @@ body {
 @media screen and (max-width: 992px) {
   .table_body {
     & .table_row:nth-child(2) {
-        td {
-            padding-top: 10px;
-        }
+      td {
+        padding-top: 10px;
+      }
     }
-}
+  }
   .table_row {
     td {
       border-bottom: none;
     }
   }
- 
+
   .rectangle_1,
   .rectangle_2,
   .rectangle_3,
