@@ -2282,17 +2282,8 @@ body {
   }
 }
 
-@media screen and (max-width: 992px) {
-  .small_text {
-    font-size: 15px;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .small_text {
-    font-size: 12px;
-  }
-}
+
 
 .media_list_item_text:nth-child(2) {
   font-family: var(--font-family);
@@ -2304,6 +2295,11 @@ body {
 @media screen and (max-width: 1200px) {
   .media_list_item_text:nth-child(2) {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .media_list_item_text:nth-child(2) {
+    font-size: 12px;
   }
 }
 
