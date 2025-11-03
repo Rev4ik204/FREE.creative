@@ -58,6 +58,12 @@ body {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .container {
+    width: 320px;
+  }
+}
+
 /* -------HEADER------- */
 .header {
   position: absolute;
@@ -88,6 +94,14 @@ body {
     left: calc(50% - 270px);
   }
 }
+
+@media screen and (max-width: 576px) {
+  .header {
+    top: 27px;
+    left: calc(50% - 160px);
+  }
+}
+
 
 .header .container {
   display: flex;
@@ -130,6 +144,14 @@ body {
     width: 163px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .logo_text {
+   line-height: 110%;
+    width: 106px;
+  }
+}
+
 
 .contact_container {
 }
@@ -218,6 +240,13 @@ body {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .hero {
+    background-image: url("../images/img/bg_hero_360-min.png");
+    min-width: 360px;
+  }
+}
+
 .hero .container {
   padding-top: 344px;
   padding-bottom: 309px;
@@ -243,6 +272,14 @@ body {
     padding-bottom: 161px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .hero .container {
+    padding-top: 145px;
+    padding-bottom: 191px;
+  }
+}
+
 
 .hero_title {
   font-family: var(--second-family);
@@ -273,6 +310,12 @@ body {
     font-size: 30px;
     width: 330px;
     margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero_title {
+    width: 240px;
   }
 }
 
@@ -308,6 +351,13 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .hero_text {
+    width: 184px;
+    margin-bottom: 40px;
+  }
+}
+
 .hero_btn_container {
   display: flex;
   align-items: center;
@@ -328,11 +378,19 @@ body {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .hero_btn_container {
     flex-direction: row;
     gap: 35px;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero_btn_container {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: baseline;
   }
 }
 
@@ -369,6 +427,18 @@ body {
     padding: 14px 47px;
     font-size: 15px;
     width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 0;
+    font-size: 15px;
+    width: 171px;
+    height: 50px;
+  }
+  .btn2 {
+    width: 206px;
   }
 }
 
