@@ -669,11 +669,20 @@ body {
   line-height: 100%;
   color: var(--black);
 }
+
 @media screen and (max-width: 1200px) {
-  .base_elements_list_item_info_text {
+  .base_elements_list_item_number {
     font-size: 45px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .base_elements_list_item_number {
+    font-size: 35px;
+  }
+}
+
+
 .base_elements_list_item_info {
   margin-top: 25px;
 }
@@ -738,11 +747,8 @@ body {
   }
 }
 
-@media screen and (max-width: 576px) {
-  .base_elements_list_item_info_text {
-    font-size: 12px;
-  }
-}
+
+
 
 
 /* -------PRICE STYLE------- */
@@ -824,11 +830,7 @@ body {
   position: absolute;
   z-index: 5;
 }
-@media screen and (max-width: 1200px) {
-  .base_elements_list_item_info_text {
-    font-size: 14px;
-  }
-}
+
 .blue_rectangle {
   border-radius: 5px;
   width: 416px;
