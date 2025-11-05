@@ -782,6 +782,15 @@ body {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .price_style .container {
+    gap: 30px;
+    padding-bottom: 88px;
+    padding-top: 140px;
+  }
+}
+
+
 .price_wrap1 {
   padding-top: 57px;
 }
