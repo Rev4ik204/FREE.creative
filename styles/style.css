@@ -246,9 +246,8 @@ body {
 /* ширина модального окна и его отступы от экрана */
 .modal-dialog {
   position: relative;
-  max-width:720px;
-    margin: 30px auto; /* для отображения модального окна по центру */
-
+  max-width: 720px;
+  margin: 30px auto; /* для отображения модального окна по центру */
 }
 
 @media screen and (max-width: 768px) {
@@ -315,7 +314,6 @@ body {
   font-weight: 600;
   letter-spacing: 0.1rem;
   color: #181818;
-  
 }
 /* свойства для кнопки "Закрыть" */
 .close {
@@ -350,47 +348,70 @@ body {
   overflow: auto;
 }
 
-.burger_menu{
+.burger_menu {
+  .burger_nav_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
 
+  .burger_nav_list_item_link {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: var(--black);
+  }
 
-  
-.contact_container {
+  .contact_container {
+  }
+
+  .contact_list {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    list-style: none;
+  }
+
+  .contact_list_item:first-child {
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    width: 204px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact_list_item_link {
+  }
+
+  .contact_tell {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--black);
+    text-decoration: none;
+  }
+
+  .contact_list_item_link {
+    filter: brightness(0) saturate(100%) invert(7%) sepia(11%) saturate(5%)
+      hue-rotate(320deg) brightness(91%) contrast(94%);
+    transition: all 0.5s ease-in-out;
+  }
 }
 
-.contact_list {
-  display: flex;
-  gap: 23px;
-  align-items: center;
-  list-style: none;
-}
-
-.contact_list_item:first-child {
-  border: 1px solid var(--white);
-  border-radius: 15px;
-  width: 204px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact_list_item_link {
-}
-
-.contact_tell {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  color: var(--black);
-  text-decoration: none;
-}
-
-
-
-
-
-
+.burger_nav_list_item_link:hover,
+.burger_nav_list_item_link:focus,
+.contact_tell:hover,
+.contact_tell:focus,
+.contact_list_item_link:hover,
+.contact_list_item_link:focus {
+  color: var(--blue);
+  filter: brightness(0) saturate(100%) invert(31%) sepia(50%) saturate(2079%)
+    hue-rotate(202deg) brightness(87%) contrast(91%);
 }
 
 /* -------HERO------- */
